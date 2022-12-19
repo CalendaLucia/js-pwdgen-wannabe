@@ -13,5 +13,5 @@ const password = "21"
 document.getElementById("password").innerHTML = "This is your password:"  + password;
 
 
-document.getElementById("generator").innerHTML = "Recap:" + yourName * yourSurname + favoriteColor + password;
+document.getElementById("generator").innerHTML = "Recap:" + yourName + yourSurname + favoriteColor + password;
 
